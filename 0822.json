@@ -1,5 +1,5 @@
 {
-    "spider": "http://xn--5nqxcz3am3cb7e94xzy6aa2935d.xyz/Yoursmile.jar;md5;282C31437FAD9E7959CC2E06E7705930",
+    "spider": "https://raw.githubusercontent.com/yuyu10245/yuyu/master/jar/Yoursmile.jar;md5;282C31437FAD9E7959CC2E06E7705930",
     "wallpaper": "https://tool.weetai.cn/api",
     "lives": [
         {
@@ -27,7 +27,7 @@
   "quickSearch":1,
   "filterable":1,
   "ext":"http://43.154.162.194/ruifenglb_api.php/v1.vod"
-},
+}，
 {
   "key": "海星影视",
   "name": "🎦海星",
