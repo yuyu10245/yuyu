@@ -1,23 +1,13 @@
 {
-    "spider": "https://yubox.xyz/spider.jar;md5;d3fae70c3fe5b39b0d3efa334d1788ce",
+    "spider": "https://yubox.xyz/spider.jar;md5;09e7be0d15ddcaf1167b20c7fe96d886",
     "wallpaper": "https://yubox.xyz/php/yy.php",
     "sites": [
         
               {"key":"nm","name":"主页","type":3,"api":"csp_WebNM","jar": "https://yubox.xyz/xc.zip;md5;9f85c74641b34ad694b2e1f6af93bc91","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://m.wwgz.cn"},
               
         {"key":"cz","name":"🏅厂长","type":3,"api":"csp_CzApp","jar": "https://yubox.xyz/w8.zip","searchable":1,"quickSearch":0,"filterable":0,"timeout":30,"ext":{"SiteUrl":"https://czzy.site","SearchUrl":"https://czzy.top/daoyongjiekoshibushiyoubing","SiteUrlBak":"https://czzy.top"}},
-             
-       {
-            "key": "韩小圈",
-            "name": "🏅韩圈",
-            "type": 3,
-            "api": "csp_HanXiaoQuan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
-        },
-       
+             {"key": "星辰","name": "🏅星辰","type": 3,"api": "csp_XBPQ","ext": {"作者": "心动","站名": "星辰","主页url": "https://yyrj.site","搜索模式": "1","搜索url":"/index.php/vod/show/id/fyclass/page/fypage.html","线路数组":"<div class=\"module-tab-items&&</div>","线路标题":"<span>&&</span>[不包含:飞刀资源]","分类url": "/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html","分类": "电影&剧集&综艺&动漫&短剧","分类值": "1&2&3&4&5"}},
+
         {
             "key": "南瓜影视",
             "name": "🏅南瓜",
@@ -27,33 +17,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-        {
-            "key": "天天影视",
-            "name": "🏅天天",
-            "type": 3,
-            "api": "csp_AppTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "热播影视",
-            "name": "🏅热播",
-            "type": 3,
-            "api": "csp_AppRB",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "追剧影视",
-            "name": "🏅追剧",
-            "type": 3,
-            "api": "csp_AppZJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+       
     {
         "key": "vidhub",
         "name": "🏅vid",
@@ -74,13 +38,18 @@
             "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
         }
     },
+    {"key": "爱看","name": "🏅爱看","type": 3,"api": "csp_Ayy","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://yubox.xyz/xiaomi.jar"},
+    {"key":"JOJO弹幕","name":"🏅JOJO","type":3,"api":"csp_Jiohub","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},
+    "jar":"https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"},
+    {"key":"小镇","name":"🏅小镇","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"主页url":"http://dyxz.tv","数组":"<div class=\"stui-vodlist__box\">&&</div>","图片":"data-original=\"&&\"","标题":"title=\"&&\"","链接":"href=\"&&\"","副标题":"<span class=\"pic-text text-right\">&&</span>","搜索url":"http://dyxz.tv/search.php;post;searchword={wd}","搜索模式":"1","搜索数组":"<a class=\"v-thumb stui-vodlist__thumb&&</a>","搜索图片":"data-original=\"&&\"","搜索标题":"title=\"&&\"","搜索链接":"href=\"&&\"","搜索副标题":"<span class=\"pic-text text-right\">&&</span>","搜索后缀":"/view/","线路数组":"<a data-toggle=\"tab\"&&/a>","线路标题":">&&<","播放数组":"<ul class=\"stui-content__playlist clearfix&&</ul>","影片年代":"年份：&&</p>","影片地区":"地区：&&<span","影片类型":"类型：&&</a>","导演":"导演：&&</p>","主演":"主演：&&</p>","简介":"更新：&&</p>","播放列表":"<a&&/a>","播放标题":">&&<","播放链接":"href=\"&&\"","免嗅":"0","分类url":"http://dyxz.tv/list/{cateId}_{catePg}.html","分类":"电影$1#电视剧$2#动漫$3#综艺$4"}},
          {
 		"key": "XBPQ_2BT",
 		"name": "🏅鼻涕",
 		"type": 3,
 		"api": "csp_XBPQ",
 		"ext": "https://yubox.xyz/XBPQ/bt.json"
-	},  
+	}, 
+	
          {
 		"key": "XBPQ_4kvm",
 		"name": "🏅4K",
@@ -96,6 +65,9 @@
 		"api": "https://yubox.xyz/drpy_libs/drpy2.min.js",
 		"ext": "https://yubox.xyz/drpy_js/农民.js"
 	},
+
+
+
 	
 		{
 		"key": "drpy_农民",
@@ -414,7 +386,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
         {
             "key": "韩剧视频",
@@ -529,7 +501,7 @@
             "api": "csp_Duanj",
             "searchable": 1,
             "changeable": 0,
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
        
         
@@ -561,7 +533,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
        
       
@@ -580,7 +552,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
         {
             "key": "云云弹幕",
@@ -594,7 +566,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
         {
             "key": "云搜弹幕",
@@ -608,7 +580,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
         {
             "key": "盘搜弹幕",
@@ -622,7 +594,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
         {
             "key": "易搜弹幕",
@@ -637,7 +609,7 @@
                 "danmu": true,
                 "cookie": "satoken=5f91a828-2198-4630-ac41-da5a217c01d7"
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
         {
             "key": "云盘弹幕",
@@ -651,7 +623,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "danmu": true
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         },
       {
       "key": "Bili_youer",
@@ -991,7 +963,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
             },
-            "jar": "https://yubox.xyz/danmu.jar;md5;9bbe014852ab4d84c5c3174657e93efe"
+            "jar": "https://yubox.xyz/danmu.jar;md5;9a9c723f1849c4a92b4d5cc5f7df637b"
         }
     ],
     "parses": [
